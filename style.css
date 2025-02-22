@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #fce4ec;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.yes-btn, .no-btn {
+    font-size: 24px;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.yes-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.no-btn {
+    background-color: #FF4D4D;
+    color: white;
+}
+
+/* Khi di chuột vào YES, nó sẽ to lên */
+.yes-btn:hover {
+    transform: scale(1.3);
+}
